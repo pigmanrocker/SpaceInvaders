@@ -14,6 +14,22 @@ public class Board implements Constants{
     }
 
     public Board(){
-        display = new Gui();
+        display = new Gui(this);
+    }
+
+    public void setMenuState(){
+        display.showMenu();
+    }
+
+    public void setAboutState(){
+        display.showAbout();
+    }
+
+    public void setCreditsState(){
+        display.showCredits();
+    }
+
+    public void setGameState(){
+        display.showGame();
     }
 }
