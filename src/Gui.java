@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -42,6 +42,7 @@ public class Gui implements Constants, Strings, ActionListener {
         cleanScreen();
 
         menuPanel = new JPanel();
+        menuPanel.setBackground(Constants.COLOR_WINDOW_BG);
         menuPanel.setLayout(new BoxLayout(menuPanel, BoxLayout.PAGE_AXIS));
 
         jFrame.getContentPane().add(menuPanel);
