@@ -95,7 +95,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
                 board.setCurrentState(new StateGame());
                 break;
             case Strings.MENU_BUTTON_ABOUT:
-                board.setCurrentState(new StateAbout());
+                board.setCurrentState(new StateAbout(board));
                 break;
             case Strings.MENU_BUTTON_CREDITS:
                 board.setCurrentState(new StateCredits());
