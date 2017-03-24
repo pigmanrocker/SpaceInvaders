@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -30,7 +30,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
         menuPanel.add(header);
 
         //Margin between header and start button
-        menuPanel.add(Box.createRigidArea(Constants.HEADER_PADDING));
+        menuPanel.add(Box.createRigidArea(Constants.HEADER_BUTTON_PADDING));
 
         //Start game button
         JButton startButton = new JButton();
@@ -98,7 +98,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
                 board.setCurrentState(new StateAbout(board));
                 break;
             case Strings.MENU_BUTTON_CREDITS:
-                board.setCurrentState(new StateCredits());
+                board.setCurrentState(new StateCredits(board));
                 break;
             default:
                 break;
