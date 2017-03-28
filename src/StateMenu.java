@@ -92,7 +92,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
     public void actionPerformed(ActionEvent actionEvent) {
         switch (actionEvent.getActionCommand()){
             case Strings.MENU_BUTTON_START:
-                board.setCurrentState(new StateGame());
+                board.setCurrentState(new StateGame(board));
                 break;
             case Strings.MENU_BUTTON_ABOUT:
                 board.setCurrentState(new StateAbout(board));
