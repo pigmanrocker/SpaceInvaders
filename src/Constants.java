@@ -19,7 +19,6 @@ interface Constants {
     Dimension RETURN_BUTTON_PADDING = new Dimension(0,150);
     Dimension CREDIT_BUTTON_PADDING = new Dimension(0, 350);
 
-
     Dimension ABOUT_TEXT_BOX = new Dimension(1100,100);
 
     //Colors
@@ -34,4 +33,31 @@ interface Constants {
     Font FONT_BUTTON = new Font("sans", Font.BOLD, 20);
     Font FONT_TEXT = new Font("sans", Font.PLAIN, 16);
     Font FONT_SUB_HEADER = new Font("sans", Font.ITALIC, 30);
+
+    //Projectiles
+    int NORMAL_PROJECTILE_ID = 1;
+    int NORMAL_PROJECTILE_DAMAGE = 1;
+    int NORMAL_PROJECTILE_WIDTH = 20;
+    int NORMAL_PROJECTILE_HEIGHT = 30;
+    String NORMAL_PROJECTILE_IMAGE = "";
+    int ALIEN_BOMB_ID = 3;
+    int ALIEN_BOMB_DAMAGE = 1;
+    int ALIEN_BOMB_WIDTH = 20;
+    int ALIEN_BOMB_HEIGHT = 20;
+    String ALIEN_BOMB_IMAGE = "";
+    int POWER_PROJECTILE_ID = 2;
+    int POWER_PROJECTILE_DAMAGE = 2;
+    int POWER_PROJECTILE_WIDTH = 20;
+    int POWER_PROJECTILE_HEIGHT = 30;
+    String POWER_PROJECTILE_IMAGE ="";
+
+    //Aliens
+    int NORMAL_ALIEN_WIDTH = 50;
+    int NORMAL_ALIEN_HEIGHT = 50;
+    int NORMAL_ALIEN_HEALTH = 1;
+    String NORMAL_ALIEN_IMAGE = "";
+    int TOUGH_ALIEN_WIDTH = 50;
+    int TOUGH_ALIEN_HEIGHT = 50;
+    int TOUGH_ALIEN_HEALTH = 2;
+    String TOUGH_ALIEN_IMAGE = "";
 }

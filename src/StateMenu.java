@@ -34,7 +34,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
 
         //Start game button
         JButton startButton = new JButton();
-        startButton.setActionCommand(Strings.MENU_BUTTON_START);
+        startButton.setActionCommand(Strings.ACTION_GAME);
         startButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         startButton.setMaximumSize(Constants.BUTTON_SIZE);
         startButton.setBackground(Constants.COLOR_BUTTON_BG);
@@ -49,7 +49,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
 
         //About button
         JButton aboutButton = new JButton();
-        aboutButton.setActionCommand(Strings.MENU_BUTTON_ABOUT);
+        aboutButton.setActionCommand(Strings.ACTION_ABOUT);
         aboutButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         aboutButton.setMaximumSize(Constants.BUTTON_SIZE);
         aboutButton.setBackground(Constants.COLOR_BUTTON_BG);
@@ -64,7 +64,7 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
 
         //Credits button
         JButton creditsButton = new JButton();
-        creditsButton.setActionCommand(Strings.MENU_BUTTON_CREDITS);
+        creditsButton.setActionCommand(Strings.ACTION_CREDITS);
         creditsButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         creditsButton.setMaximumSize(Constants.BUTTON_SIZE);
         creditsButton.setBackground(Constants.COLOR_BUTTON_BG);
@@ -91,13 +91,13 @@ public class StateMenu implements State, Strings, Constants, ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         switch (actionEvent.getActionCommand()){
-            case Strings.MENU_BUTTON_START:
+            case Strings.ACTION_GAME:
                 board.setCurrentState(new StateGame(board));
                 break;
-            case Strings.MENU_BUTTON_ABOUT:
+            case Strings.ACTION_ABOUT:
                 board.setCurrentState(new StateAbout(board));
                 break;
-            case Strings.MENU_BUTTON_CREDITS:
+            case Strings.ACTION_CREDITS:
                 board.setCurrentState(new StateCredits(board));
                 break;
             default:
