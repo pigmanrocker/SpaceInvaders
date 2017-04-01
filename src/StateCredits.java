@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by pigmanrocker on 23-3-17.
  */
-public class StateCredits implements State, Strings, Constants, ActionListener{
+public class StateCredits implements State, ActionListener{
 
     private JPanel creditsPanel;
     private Board board;
@@ -83,7 +83,7 @@ public class StateCredits implements State, Strings, Constants, ActionListener{
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         switch (actionEvent.getActionCommand()){
-            case ACTION_RETURN:
+            case Strings.ACTION_RETURN:
                 board.setCurrentState(new StateMenu(board));
         }
     }

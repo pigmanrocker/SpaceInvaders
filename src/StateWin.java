@@ -3,7 +3,7 @@ import javax.swing.*;
 /**
  * Created by pigmanrocker on 23-3-17.
  */
-public class StateWin implements State, Strings, Constants {
+public class StateWin implements State {
 
     public StateWin(){
 

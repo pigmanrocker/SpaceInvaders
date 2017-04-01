@@ -15,6 +15,11 @@ public class NormalShot implements Constants, ScreenItem, Projectile {
     }
 
     @Override
+    public boolean draw() {
+        return true;
+    }
+
+    @Override
     public int getXCoord() {
         return xCoord;
     }

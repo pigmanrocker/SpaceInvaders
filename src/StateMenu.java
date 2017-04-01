@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by pigmanrocker on 23-3-17.
  */
-public class StateMenu implements State, Strings, Constants, ActionListener {
+public class StateMenu implements State, ActionListener {
 
     private JPanel menuPanel;
     private Board board;

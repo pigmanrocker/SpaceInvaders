@@ -1,7 +1,7 @@
 /**
  * Created by pigmanrocker on 31-3-17.
  */
-public class ProjectileFactory implements Constants{
+public class ProjectileFactory {
 
     public ProjectileFactory(){
 

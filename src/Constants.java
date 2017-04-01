@@ -52,10 +52,12 @@ interface Constants {
     String POWER_PROJECTILE_IMAGE ="";
 
     //Aliens
+    int NORMAL_ALIEN_ID = 1;
     int NORMAL_ALIEN_WIDTH = 50;
     int NORMAL_ALIEN_HEIGHT = 50;
     int NORMAL_ALIEN_HEALTH = 1;
     String NORMAL_ALIEN_IMAGE = "";
+    int TOUGH_ALIEN_ID = 2;
     int TOUGH_ALIEN_WIDTH = 50;
     int TOUGH_ALIEN_HEIGHT = 50;
     int TOUGH_ALIEN_HEALTH = 2;

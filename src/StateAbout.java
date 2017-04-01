@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by pigmanrocker on 23-3-17.
  */
-public class StateAbout implements State, Strings, Constants, ActionListener {
+public class StateAbout implements State, ActionListener {
 
     private JPanel aboutPanel;
     private Board board;

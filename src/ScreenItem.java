@@ -9,4 +9,5 @@ public interface ScreenItem {
     int getYCoord();
     int getHeight();
     int getWidth();
+    boolean draw();
 }

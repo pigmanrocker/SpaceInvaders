@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /**
  * Created by pigmanrocker on 23-3-17.
  */
-public class StateGame implements State, Strings, Constants {
+public class StateGame implements State {
 
     private Board board;
     private CanvasPanel gamePanel;

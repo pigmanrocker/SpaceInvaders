@@ -3,7 +3,7 @@ import java.awt.*;
 /**
  * Created by pigmanrocker on 31-3-17.
  */
-public class PowerShot implements Constants, ScreenItem, Projectile {
+public class PowerShot implements ScreenItem, Projectile {
 
     private int xCoord;
     private int yCoord;
@@ -12,6 +12,11 @@ public class PowerShot implements Constants, ScreenItem, Projectile {
     public PowerShot(int xCoord, int yCoord){
         this.xCoord = xCoord;
         this.yCoord = yCoord;
+    }
+
+    @Override
+    public boolean draw() {
+        return true;
     }
 
     @Override
