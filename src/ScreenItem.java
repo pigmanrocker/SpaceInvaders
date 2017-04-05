@@ -1,10 +1,10 @@
-import java.awt.*;
+import java.awt.image.BufferedImage;
 
 /**
  * Created by pigmanrocker on 28-3-17.
  */
 public interface ScreenItem {
-    Image getImage();
+    BufferedImage getImage();
     int getXCoord();
     int getYCoord();
     int getHeight();

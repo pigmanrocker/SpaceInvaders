@@ -19,6 +19,7 @@ public class Board implements Constants, Strings{
         jFrame.setPreferredSize(Constants.SCREEN_SIZE);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.getContentPane().setLayout(new BoxLayout(jFrame.getContentPane(), BoxLayout.Y_AXIS));
+        jFrame.setResizable(false);
         jFrame.pack();
         jFrame.setVisible(true);
 
