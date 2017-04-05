@@ -8,4 +8,4 @@ A space invaders game build with design patterns for a school project
 * Decorator
 
 ## Class Diagram:
-![Class Diagram](http://i.imgur.com/aYUrYVI.png)
+![Class Diagram](http://i.imgur.com/84hxcIz.png)
