@@ -55,7 +55,7 @@ public class MovementProvider {
         } else if(direction == Constants.DIRECTION_DOWN){
             boolean gameOver = false;
             for (Alien alien : aliens){
-                if((alien.getYCoord() + Constants.ALIEN_MOVEMENT_MODIFIER) > 650){
+                if((alien.getYCoord() + Constants.ALIEN_MOVEMENT_MODIFIER) > 550){
                     gameOver = true;
                 }
             }

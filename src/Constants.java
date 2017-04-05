@@ -21,6 +21,8 @@ interface Constants {
 
     Dimension ABOUT_TEXT_BOX = new Dimension(1100,100);
 
+    Dimension LOST_BUTTON_PADDING = new Dimension(0, 400);
+
     //Colors
     Color COLOR_WHITE = new Color(255, 255, 255);
     Color COLOR_BUTTON_BG = new Color(60, 60, 60);

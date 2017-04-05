@@ -1,10 +1,9 @@
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by pigmanrocker on 19-3-17.
  */
-public class Board implements Constants, Strings{
+public class Board {
 
     private JFrame jFrame;
     private State currentState;

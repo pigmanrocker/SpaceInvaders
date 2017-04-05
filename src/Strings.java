@@ -16,7 +16,7 @@ interface Strings {
     String ABOUT_HEADER = "About Space Invaders";
     String ABOUT_TEXT = "<html><center>This is a remake of the original Space Invaders game from 1978. The game is developed for a university project at Stenden University, Emmen." +
             "</br>" +
-            " Coded with the JAVA programming language and using design patterns such as State, Factory, ....... and ........, as well as the SWING framework.</center></html>";
+            " Coded with the JAVA programming language and using design patterns such as State, Factory, Decorator and Command, as well as the SWING framework.</center></html>";
     //Credits
     String CREDITS_HEADER = "Credits:";
     String CREDITS_SUB_HEADER = "Developers";
@@ -33,8 +33,12 @@ interface Strings {
     String ACTION_CREDITS = "CREDITS";
     String ACTION_ABOUT = "ABOUT";
     String ACTION_GAME = "GAME";
-    String ACTION_WIN = "WIN";
-    String ACTION_LOST = "LOST";
 
+    //Lost
+    String LOST_HEADER = "GAME OVER! TRY AGAIN?";
+
+    //Win
+    String WIN_HEADER = "YOU WON! GOOD JOB!";
+    String WIN_SUB_HEADER = "WE HOPE YOU ENJOYED";
 
 }
