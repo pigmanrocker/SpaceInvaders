@@ -5,4 +5,6 @@ public interface Projectile {
     int getDamage();
     void setXCoord(int xCoord);
     void setYCoord(int yCoord);
+    void setDraw(boolean draw);
+    boolean draw();
 }

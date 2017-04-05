@@ -38,28 +38,38 @@ interface Constants {
     int NORMAL_PROJECTILE_ID = 1;
     int NORMAL_PROJECTILE_DAMAGE = 1;
     int NORMAL_PROJECTILE_WIDTH = 20;
-    int NORMAL_PROJECTILE_HEIGHT = 30;
-    String NORMAL_PROJECTILE_IMAGE = "";
-    int ALIEN_BOMB_ID = 3;
-    int ALIEN_BOMB_DAMAGE = 1;
-    int ALIEN_BOMB_WIDTH = 20;
-    int ALIEN_BOMB_HEIGHT = 20;
-    String ALIEN_BOMB_IMAGE = "";
+    int NORMAL_PROJECTILE_HEIGHT = 32;
+    String NORMAL_PROJECTILE_IMAGE = "src/res/sprite_projectile.png";
     int POWER_PROJECTILE_ID = 2;
     int POWER_PROJECTILE_DAMAGE = 2;
     int POWER_PROJECTILE_WIDTH = 20;
     int POWER_PROJECTILE_HEIGHT = 30;
     String POWER_PROJECTILE_IMAGE ="";
+    int ALIEN_BOMB_ID = 3;
+    int ALIEN_BOMB_DAMAGE = 1;
+    int ALIEN_BOMB_WIDTH = -40;
+    int ALIEN_BOMB_HEIGHT = -40;
+    String ALIEN_BOMB_IMAGE = "src/res/shot_alien.png";
 
     //Aliens
-    int NORMAL_ALIEN_ID = 1;
     int NORMAL_ALIEN_WIDTH = 50;
     int NORMAL_ALIEN_HEIGHT = 50;
     int NORMAL_ALIEN_HEALTH = 1;
-    String NORMAL_ALIEN_IMAGE = "";
-    int TOUGH_ALIEN_ID = 2;
-    int TOUGH_ALIEN_WIDTH = 50;
-    int TOUGH_ALIEN_HEIGHT = 50;
+    String NORMAL_ALIEN_IMAGE = "src/res/alien1.png";
     int TOUGH_ALIEN_HEALTH = 2;
-    String TOUGH_ALIEN_IMAGE = "";
+    String TOUGH_ALIEN_IMAGE = "src/res/alien2.png";
+    int ALIEN_ROWS = 4;
+    int ALIEN_COLUMNS = 10;
+    int ALIEN_MOVEMENT_MODIFIER = 25;
+
+    //Player
+    int PLAYER_WIDTH = 200;
+    int PLAYER_HEIGHT = 100;
+    int PLAYER_SPEED = 5;
+    String PLAYER_IMAGE = "src/res/player.png";
+
+    //Movement
+    int DIRECTION_DOWN = 1;
+    int DIRECTION_LEFT = 2;
+    int DIRECTION_RIGHT = 3;
 }
